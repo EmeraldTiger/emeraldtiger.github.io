@@ -1,0 +1,264 @@
+body {
+  background-color: #222222;
+  color: white;
+  font-family: "Kanit", Calibri, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: large;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+h2 {
+  font-family: "Kanit", Calibri, Tahoma, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hero {
+  margin: auto;
+  padding-top: 50%;
+  padding-bottom: 75%;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.header_custom {
+  background-color: #353933;
+  padding: 10px;
+}
+
+.accordion {
+  background-color: #4F554F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #65775F;
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.nav {
+  background-color: #353933;
+  width:100%;
+}
+
+.active, .nav-item:hover {
+  background-color: #65775F;
+}
+
+.screenshot {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.main-screenshot {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#menu-icon {
+	margin: 10px;
+	background-color:transparent;
+	border: none;
+    outline: none;
+	color: white;
+	font-size: 30px;
+}
+
+#menu {
+	background-color: #4F554F;
+	position: relative;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.menu-item {
+	padding: 12px 16px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-item:hover {
+	background-color: #65775F;
+	transition: 0.4s;
+}
+
+#bg {
+	display:none;
+}
+
+.slideshow-container {
+    overflow: hidden;
+}
+
+.slideshow {
+	position: relative;
+	display:flex;
+	gap: 10px;
+	left: 0px;
+	width: 230%;
+}
+
+.slide {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.extra-margin {
+	margin-bottom:5%;
+}
+
+.buyquake {
+}
+
+.map_info_name {
+		margin-left: 2%;
+		font-size: 10vw;
+		text-align: left;
+		padding-bottom: 0;
+}
+
+.carousel_screen {
+	width: 100px;
+	height: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 75%;
+	  height: auto;
+	}
+	
+	.hero {
+		padding-top: 0;
+		padding-bottom: 5%;
+		position:relative;
+		display:grid;
+	}
+	
+	.not-nav {
+		max-width: 75%;
+		margin: auto;
+	}
+	
+	.mechanics {
+		display:flex;
+		gap: 0px;
+	}
+	
+	.accordion {
+		text-align: center;
+	}
+	
+	.panel {
+		transition: max-height 0s ease-out;
+	}
+	
+	.mechanicCategory {
+	}
+	
+	.menu-item {
+	}
+	
+	#tagline {
+		font-size: x-large;
+	}
+	
+	.logo {
+		padding-top: 10%;
+		grid-area: 1/2;
+	}
+	
+	#bg {
+		max-width: 100%;
+		max-height: 100%;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		filter: sepia(100%) hue-rotate(45deg) grayscale(75%) brightness(50%);
+		position:relative;
+		display:grid;
+		grid-area: 1/2;
+		object-fit: cover;
+	}
+	
+	#bgborder {
+		border-bottom: 50px;
+		border-style: none none solid none;
+		border-color: #353933;
+		z-index: -2;
+		grid-area: 1/2;
+	}
+	
+	#video-container {
+		object-fit: cover;
+	}
+	
+	#rm-logo {
+	}
+	
+	.screencard {
+		filter: drop-shadow(10px 10px #65775F);
+	}
+	
+	#gallery {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-content: space-evenly;
+	}
+	
+	.gallery_item {
+		text-align: center;
+	}
+	
+	.static_bg {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.map_info_name {
+		margin-left: 2%;
+		font-size: 6vw;
+		text-align: left;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	
+	.map_info {
+		margin-left: 2%;
+		font-size: 2vw;
+		text-align: left;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}

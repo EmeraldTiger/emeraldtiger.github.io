@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Re:Mobilize</title>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="jquery-3.6.3.min.js"></script>
+	<script src="jquery.cycle2.min.js"></script>
+	<script src="jquery.cycle2.carousel.min.js"></script>
+	
+</head>
+
+<body>
+
+	<div id="nav" class="nav"></div>
+	
+	<div class="hero">
+		
+		<div id="bgborder">
+			<video id="bg" autoplay muted loop id="myVideo">
+				<source src="trailer.mp4" type="video/mp4">		
+			</video>
+		</div>
+		
+		<div class="logo">
+			<img id="rm-logo" src="remobilize_logo.png" alt="Re:Mobilize">
+			<p id="tagline">A single player modification for Quake®</p>
+		</div>
+	
+	</div>
+	
+	<div class="not-nav">
+	
+	<div class="w3-container header_custom"><h2>New Ways to Move</h2></div>
+	
+	<p>Re:Mobilize introduces three movement-based gameplay mechanics, each of which offers a totally new way to interact with the Quake world, opening up devious new challenges.</p>
+	
+	<div class="mechanics">
+		<div class="mechanicCategory" id="bounce">
+			<button class="accordion">Bounce</button>
+			<div class="panel">
+			  <div class="screencard">
+			  <img class="screenshot" src="trampoline.png" alt="Trampoline">
+			  </div>
+			  <p>Perform death-defying leaps of faith across even the most intimidating gaps and chasms with trampolines.</p>
+			</div>
+		</div>
+		
+		<div class="mechanicCategory" id="climb">
+			<button class="accordion">Climb</button>
+			<div class="panel">
+			  <div class="screencard">
+			  <img class="screenshot" src="wiremesh.png" alt="Wiremesh">
+			  </div>
+			  <p>Nothing can stop you, not even gravity itself. More than just simple ladders, wiremeshes let you move up, down, sideways, and even hang from ceilings.</p>
+			</div>
+		</div>
+		
+		<div class="mechanicCategory" id="swing">
+			<button class="accordion">Swing</button>
+			<div class="panel">
+			  <div class="screencard">
+			  <img class="screenshot" src="lighthook.png" alt="Lighthook">
+			  </div>
+			  <p>The lighthook's purely photonic composition allows it to instantly latch onto any visible lightpanel, regardless of distance. You'll be hooked in no time - literally.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-container header_custom"><h2>Dynamic Dimensions</h2></div>
+	
+	<p><span id="mapcount"></span> challenging new levels from the malevolent minds of the Quake community, each employing Re:Mobilize's signature mechanics.</p>
+	
+	
+	<div class="w3-container header_custom"><h2>Powered by progs_dump</h2></div>
+	
+	<p>Not content with simply redefining Quake movement, Re:Mobilize enjoys and expands upon the benefits of dumptruck_ds's groundbreaking progs_dump development kit, giving level designers access to all of its dastardly features - and even some new ones.</p>
+	
+	</div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
